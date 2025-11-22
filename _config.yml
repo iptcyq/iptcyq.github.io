@@ -1,12 +1,13 @@
 title: Iptcyq # your name (or website title) here
 logo: "/images/profilePic.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  (AKA ipt or decoi)
+  <b>(AKA ipt or decoi)</b>
   <br><br>
+
   Making games and random stuff on my potato laptop
   <br><br>
-  <a href="https://github.com/iptcyq">View My Github Profile</a> 
-  <a href="https://f15hygames.itch.io/">View My itch.io Games</a> 
+  
+  <a href="https://f15hygames.itch.io/">Find My itch.io Games</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
