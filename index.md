@@ -1,53 +1,61 @@
-## About Me
+﻿## About Me
 
-Hi I'm Iptcyq, I code, make games and other random things on my laptop. 
+Hi I'm Iptcyq. I code, make games and engineer random stuff on my laptop. 
 
 I just made this site because it's the middle of exam season and I'm bored (and distracted).
-Which is also why it's incomplete... I'll get back to updating this after exams? maybe?
+Which is also why it's incomplete... I'll get back to updating this eventually?
 
 ---
 ## Key Projects 
 
-[The Distant Lurker](/TheDistantLurker_page)
-
-**Made in less than 2 weeks for Game Off 2021**
+[<kbd> <br> The Distant Lurker <br> </kbd>](pages/TheDistantLurker_page)
+[<kbd> <br> [Game Off 2021] <br> </kbd>](https://itch.io/jam/game-off-2021/rate/1282863)
 
 A short game about human hacking, aka social engineering.
 
 <img src="images/TheDistantLurker.png?raw=true"/>
 
 ---
-[Simulation of Virus Spread](/VirusSimulation_page)
 
-**Made for a Mathematics competition**
+[<kbd> <br> Simulation of Virus Spread <br> </kbd>](pages/VirusSimulation_page)
+[<kbd> <br> [SMS Essay Competition 2021] <br> </kbd>](https://sgmathsociety.org/sms-essay-competition-2021/)
 
 A simplistic simulation of the spread of a virus.
 
-<!--<img src="images/dummy_thumbnail.jpg?raw=true"/>-->
+<img src="images/VirusSim.png?raw=true"/>
 
 ---
-[Real-time sign language translation]()
 
-**Made for a science research project, being a finalist at SSEF**
+<kbd> <br> Real-time sign language translation <br> </kbd>
+[<kbd> <br> [SSEF 2023] <br> </kbd>](https://www.science.edu.sg/for-schools/competitions/singapore-science-and-engineering-fair)
 
-Incomplete attempt at training a live sign language translation model.
+Incomplete attempt at training a live sign language translation model. 
+Made for a school science research project, but never completed. 
+Surprisingly, it's attained finalist at SSEF 2023.
 
-<!--<img src="images/dummy_thumbnail.jpg?raw=true"/>-->
+<img src="images/SignTranslation2.jpg?raw=true"/>
+<img src="images/SignTranslation1.jpg?raw=true"/>
 
 ---
 
 ## Things I'm working on
 
-Nothing to show yet... I'm still working on it.
+Nothing to show yet... I'm still working on it. 👀
+
+<details> 
+  <summary> Here's a tidbit though... </summary>
+   An asymmetric, 2-player co-op stealth game.
+</details>
 
 ---
+
 ## Incomplete things I might continue in the future
 
-[NEAT Algorithm](https://github.com/iptcyq/NEAT-Algorithm)
+[<kbd> <br> NEAT Algorithm <br> </kbd>](https://github.com/iptcyq/NEAT-Algorithm)
 
-**Attempt at learning machine learning**
-
-...by _trying_ to implement the NEAT algorithm from scratch.
+**Attempt at learning machine learning** 
+...by _trying_ to implement the NEAT algorithm from scratch. 
+(last worked on in 2023)
 
 <video width="320" height="240" controls>
   <source src="images/mlAttempt.mp4" type="video/mp4">
@@ -56,17 +64,17 @@ Your browser does not support the video tag.
 
 ---
 
-[Witch's Brew](https://f15hygames.itch.io/witchs-brew)
+[<kbd> <br> Witch's Brew <br> </kbd>](https://f15hygames.itch.io/witchs-brew)
 
-**Attempt at learning Godot.** 
-
+**First attempt at learning Godot.** 
 Get ingredients for the witch in time, or be turned into a frog.
+(last worked on in 2024)
 
 <img src="images/WitchBrew.png?raw=true"/>
 
 
 ---
-<p style="font-size:11px"> Last updated in November 2025 </p>
+<p style="font-size:11px"> Last updated in December 2025 </p>
 
+<!-- Credits: -->
 <!-- <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p> -->
-<!-- Remove above link if you don't want to attibute -->
