@@ -44,8 +44,12 @@ Nothing to show yet... I'm still working on it. 👀
 
 <details> 
   <summary> Here's a tidbit though... </summary>
-   An asymmetric, 2-player co-op stealth game.
+   An asymmetric, 2-player co-op stealth game. <br>
+   (Hopefully with screenshots to come)
 </details>
+
+<br>
+
 
 ---
 

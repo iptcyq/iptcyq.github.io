@@ -11,4 +11,5 @@
 The original version explained nothing and was made solely to get the results we needed.
 
 A couple of years after that, I updated it to v2.0 to make things clearer.
-<img src="images/VirusSim.png?raw=true"/>
+
+<img src="../images/VirusSim.png?raw=true"/>

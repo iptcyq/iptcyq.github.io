@@ -39,13 +39,13 @@ I didn't have enough knowledge to get into anything technical, which was why I s
 Through the 2 weeks, I watched a bunch of tutorials and cobbled together an OS based system, with 3 "hacking tools".
 
 1. **Bug:** You can listen in on office worker's conversations to glean their personal information.
-<img src="images/TDL_Bug.jpg?raw=true"/>
+<img src="../images/TDL_Bug.jpg?raw=true"/>
 
 2. **Email:** Using anyone's full name and password, you can access their email inbox.
-<img src="images/TDL_Email.jpg?raw=true"/>
+<img src="../images/TDL_Email.jpg?raw=true"/>
 
 3. **Instasnap:** You can search up anyone's full name to find their social media posts.
-<img src="images/TDL_Instasnap.jpg?raw=true"/>
+<img src="../images/TDL_Instasnap.jpg?raw=true"/>
 
 
 I made up a small company and made up interconnected stories and dynamics for each worker to create their accounts.
