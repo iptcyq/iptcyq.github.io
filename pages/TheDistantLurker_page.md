@@ -77,7 +77,7 @@ instead of 1.5 weeks worth. Definitely taught me a great lesson on version contr
 **Conclusion**
 
 So yea. I forgot what else I intended to say. The results turned out surprisingly well. 
-<img src="images/TDL_results_.jpg?raw=true"/>
+<img src="../images/TDL_results_.jpg?raw=true"/>
 
 I developed the game a little more this year (2025) for a uni module. Video of gameplay [here](https://www.youtube.com/watch?v=kgsAbbHFfvo)
 - I added some commonly asked for functionality. (copy-paste)
