@@ -26,6 +26,26 @@ A simplistic simulation of the spread of a virus.
 
 ---
 
+## Things I'm working on
+
+Not much to show yet... I'm still working on it. 👀
+
+Here's some tidbits though...
+
+<kbd> <br> Asymmetric 2 player game <br> </kbd>
+<kbd> <br> + stealth and puzzles <br> </kbd>
+
+Made as part of a school module, will probably (?) be free on Steam.
+
+<img src="images/URECA_menu.jpg?raw=true"/>
+<img src="images/URECA_agent.jpg?raw=true"/>
+
+<br>
+
+---
+
+## Incomplete things I might continue in the future
+
 <kbd> <br> Real-time sign language translation <br> </kbd>
 [<kbd> <br> [SSEF 2023] <br> </kbd>](https://www.science.edu.sg/for-schools/competitions/singapore-science-and-engineering-fair)
 
@@ -37,33 +57,6 @@ Surprisingly, it's attained finalist at SSEF 2023.
 <img src="images/SignTranslation1.jpg?raw=true"/>
 
 ---
-
-## Things I'm working on
-
-Not much to show yet... I'm still working on it. 👀
-
-Here's some tidbits though...
-
-<kbd> <br> Asymmetric 2 player game <br> </kbd>
-<kbd> <br> + stealth and puzzles <br> </kbd>
-
-Made as part of a school module, will be free on Steam.
-
-Work-in-progress menu:
-
-<img src="images/URECA_menu.jpg?raw=true"/>
-
-Mechanic and Hacker roles:
-
-<img src="images/URECA_agent.jpg?raw=true"/>
-<img src="images/URECA_hacker.jpg?raw=true"/>
-
-<br>
-
-
----
-
-## Incomplete things I might continue in the future
 
 [<kbd> <br> NEAT Algorithm <br> </kbd>](https://github.com/iptcyq/NEAT-Algorithm)
 
