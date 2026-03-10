@@ -9,7 +9,7 @@ Which is also why it's incomplete... I'll get back to updating this eventually?
 ## Key Projects 
 
 [<kbd> <br> The Distant Lurker <br> </kbd>](pages/TheDistantLurker_page)
-[<kbd> <br> [Game Off 2021] <br> </kbd>](https://itch.io/jam/game-off-2021/rate/1282863)
+[<kbd> <br> [Game Off 2021] <br> </kbd>](https://itch.io/jam/game-off-2021/rate/1282863?=githubio)
 
 A short game about human hacking, aka social engineering.
 
@@ -40,13 +40,23 @@ Surprisingly, it's attained finalist at SSEF 2023.
 
 ## Things I'm working on
 
-Nothing to show yet... I'm still working on it. 👀
+Not much to show yet... I'm still working on it. 👀
 
-<details> 
-  <summary> Here's a tidbit though... </summary>
-   An asymmetric, 2-player co-op stealth game. <br>
-   (Hopefully with screenshots to come)
-</details>
+Here's some tidbits though...
+
+<kbd> <br> Asymmetric 2 player game <br> </kbd>
+<kbd> <br> + stealth and puzzles <br> </kbd>
+
+Made as part of a school module, will be free on Steam.
+
+Work-in-progress menu:
+
+<img src="images/URECA_menu.jpg?raw=true"/>
+
+Mechanic and Hacker roles:
+
+<img src="images/URECA_agent.jpg?raw=true"/>
+<img src="images/URECA_hacker.jpg?raw=true"/>
 
 <br>
 
@@ -68,7 +78,7 @@ Your browser does not support the video tag.
 
 ---
 
-[<kbd> <br> Witch's Brew <br> </kbd>](https://f15hygames.itch.io/witchs-brew)
+[<kbd> <br> Witch's Brew <br> </kbd>](https://f15hygames.itch.io/witchs-brew?=githubio)
 
 **First attempt at learning Godot.** 
 Get ingredients for the witch in time, or be turned into a frog.
@@ -78,7 +88,7 @@ Get ingredients for the witch in time, or be turned into a frog.
 
 
 ---
-<p style="font-size:11px"> Last updated in December 2025 </p>
+<p style="font-size:11px"> Last updated in Early March 2025 </p>
 
 <!-- Credits: -->
 <!-- <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p> -->

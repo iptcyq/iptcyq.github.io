@@ -8,7 +8,7 @@
 	- email, 
 	- and social media
 - It comes with _some_ world-building! (if you ignore the plotholes)
-- Play the game here: [The Distant Lurker](https://f15hygames.itch.io/the-distant-lurker)
+- Play the game here: [The Distant Lurker](https://f15hygames.itch.io/the-distant-lurker?=githubio)
 
 ---
 
@@ -25,7 +25,7 @@ Anyway, it did surprisingly well! Out of 502 entries, it got #55 overall, and #2
 
 I just finished national exams and was itching to get back into game dev, so I decided to join Game Off 2021.
 The gimmick was that we had to use Github to publish our source code. 
-It was my first time properly using Github, and boy did it save the project later on (foreshadowing).
+It was my first time properly using Github, and I didn't get the appeal of it (foreshadowing).
 
 The theme was "Bug", and after some ideation, I went for this definition:
 > Conceal a miniature microphone in (a room or device) in order to listen to or record someone's conversations secretly.
@@ -71,18 +71,23 @@ This might have been a blessing in disguise because in hindsight, it would have 
 The second problem, the project corrupted and started creating a bunch of engine-related errors.
 No matter how much I restarted the engine and my system, it stuck around.
 
-So thank god for needing to use Github in this jam. I only had to redo a day's worth of work, 
+So thank goodness for needing to use Github in this jam. I only had to redo a day's worth of work, 
 instead of 1.5 weeks worth. Definitely taught me a great lesson on version control.
 
 **Conclusion**
 
 So yea. I forgot what else I intended to say. The results turned out surprisingly well. 
+
 <img src="../images/TDL_results_.jpg?raw=true"/>
+
+**Post conclusion**
 
 I developed the game a little more this year (2025) for a uni module. Video of gameplay [here](https://www.youtube.com/watch?v=kgsAbbHFfvo)
 - I added some commonly asked for functionality. (copy-paste)
 - Made tabs actually work like tabs. (draggable, overlappable, closeable)
-- Added a little optional content (notepad)
+- Added some optional content (notepad tips)
+
+<img src="images/TheDistantLurker.png?raw=true"/>
 
 I'd be interested in making a second game with a new story, but unfortunately I haven't had many good ideas.
 
