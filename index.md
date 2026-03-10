@@ -88,7 +88,7 @@ Get ingredients for the witch in time, or be turned into a frog.
 
 
 ---
-<p style="font-size:11px"> Last updated in Early March 2025 </p>
+<p style="font-size:11px"> Last updated in Early March 2026 </p>
 
 <!-- Credits: -->
 <!-- <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p> -->
