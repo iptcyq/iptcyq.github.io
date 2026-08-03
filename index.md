@@ -29,7 +29,7 @@ Completed projects with the occasional write-up.
 {% endif %}
 
 {% if post.video %}
-<video controls class="project-video">
+<video width="640" controls class="project-video">
     <source src="{{ post.video }}" type="video/mp4">
     Your browser does not support the video tag.
 </video>
@@ -48,8 +48,6 @@ Things I am currently working on.
 
 {% if post.page_url %}
 ### [{{ post.title }}]({{ post.page_url | relative_url }})
-{% elsif post.external_url %}
-### [{{ post.title }}]({{ post.external_url }})
 {% else %}
 ### {{ post.title }}
 {% endif %}
@@ -71,7 +69,7 @@ Things I am currently working on.
 {% endif %}
 
 {% if post.video %}
-<video controls class="project-video">
+<video width="640" controls class="project-video">
     <source src="{{ post.video }}" type="video/mp4">
     Your browser does not support the video tag.
 </video>
@@ -90,8 +88,6 @@ Incomplete projects that I might continue in the future.
 
 {% if post.page_url %}
 ### [{{ post.title }}]({{ post.page_url | relative_url }})
-{% elsif post.external_url %}
-### [{{ post.title }}]({{ post.external_url }})
 {% else %}
 ### {{ post.title }}
 {% endif %}
@@ -114,7 +110,7 @@ Incomplete projects that I might continue in the future.
 {% endif %}
 
 {% if post.video %}
-<video controls class="project-video">
+<video width="640" controls class="project-video">
     <source src="{{ post.video }}" type="video/mp4">
     Your browser does not support the video tag.
 </video>

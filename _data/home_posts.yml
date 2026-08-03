@@ -15,15 +15,17 @@ archive:
     thumbnail_2: /images/SignTranslation1.jpg?raw=true
 
   - title: NEAT Algorithm
-    date: 2023-06-01
-    summary: Attempt at learning machine learning by trying to implement the NEAT algorithm from scratch. Last worked on in 2023.
+    date: 2023-05-08
+    summary: Attempt at learning machine learning by trying to implement the NEAT algorithm from scratch.
+    badge: Repo
     external_url: https://github.com/iptcyq/NEAT-Algorithm
     external_label: View on GitHub
     video: /images/mlAttempt.mp4
 
   - title: Witch's Brew
     date: 2024-01-01
-    summary: First attempt at learning Godot. Get ingredients for the witch in time, or be turned into a frog. Last worked on in 2024.
+    summary: First attempt at learning Godot. Get ingredients for the witch in time, or be turned into a frog.
+    badge: itch.io Page
     external_url: https://f15hygames.itch.io/witchs-brew?=githubio
     external_label: Play on itch.io
     thumbnail: /images/WitchBrew.png?raw=true
