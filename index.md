@@ -1,6 +1,6 @@
 ﻿## About Me
 
-Hi I’m Iptcyq. I code, make games and engineer random stuff on (and off) my laptop.
+Hi I’m **Iptcyq**. I code, make games and engineer random stuff on (and off) my laptop.
 
 I just made this site because it’s the middle of exam season and I’m bored (and distracted). Which is also why it’s incomplete… I’ll get back to updating this eventually?
 
@@ -13,20 +13,14 @@ Completed projects with the occasional write-up.
 {% assign posts = site.pages | where: "home_post", true | sort: "date" | reverse %}
 {% for post in posts %}
 
-<div class="project">
+### [{{ post.title }}]({{ post.url | relative_url }})
 
-{% if post.page_url %}
-### [{{ post.title }}]({{ post.page_url | relative_url }})
-{% elsif post.external_url %}
-### [{{ post.title }}]({{ post.external_url }})
-{% else %}
-### {{ post.title }}
+<small>
+{{ post.date | date: "%B %Y" }}
+{% if post.badge and post.external_url %}
+ · <a href="{{ post.external_url }}">{{ post.badge }}</a>
 {% endif %}
-
-<small>{{ post.date | date: "%B %Y" }}</small>
-
-{% if post.url %}[<kbd>Read post</kbd>]({{ post.url | relative_url }}){% endif %}
-{% if post.badge %} [<kbd>{{ post.badge }}</kbd>]({{ post.external_url }}){% endif %}
+</small>
 
 {{ post.summary }}
 
@@ -37,24 +31,21 @@ Completed projects with the occasional write-up.
 {% if post.video %}
 <video controls class="project-video">
     <source src="{{ post.video }}" type="video/mp4">
+    Your browser does not support the video tag.
 </video>
 {% endif %}
 
-</div>
+---
 
 {% endfor %}
 
----
-
 ## Work in Progress
 
-Things I'm working on.
+Things I am currently working on.
 
 {% assign wip_posts = site.data.home_posts.wip | sort: "date" | reverse %}
 {% for post in wip_posts %}
 
-<div class="project">
-
 {% if post.page_url %}
 ### [{{ post.title }}]({{ post.page_url | relative_url }})
 {% elsif post.external_url %}
@@ -63,56 +54,14 @@ Things I'm working on.
 ### {{ post.title }}
 {% endif %}
 
-<small>{{ post.date | date: "%B %Y" }}</small>
-
-{% if post.page_url %}[<kbd>Read post</kbd>]({{ post.page_url | relative_url }}){% endif %}
-{% if post.badge and post.external_url %} [<kbd>{{ post.badge }}</kbd>]({{ post.external_url }}){% endif %}
-{% if post.external_url and post.badge == nil %} [<kbd>{{ post.external_label | default: "External link" }}</kbd>]({{ post.external_url }}){% endif %}
-
-{{ post.summary }}
-
-{% if post.thumbnail %}
-<img src="{{ post.thumbnail }}" class="project-image"/>
-{% endif %}
-
-{% if post.video %}
-<video controls class="project-video">
-    <source src="{{ post.video }}" type="video/mp4">
-</video>
-{% endif %}
-
-</div>
-
-{% endfor %}
-
----
-
-<details>
-
-## Archive
-
-Incomplete projects that I might continue in the future.
-
-<br>
-
-{% assign archive_posts = site.data.home_posts.archive | sort: "date" | reverse %}
-{% for post in archive_posts %}
-
-<div class="project">
-
-{% if post.page_url %}
-### [{{ post.title }}]({{ post.page_url | relative_url }})
+<small>
+{{ post.date | date: "%B %Y" }}
+{% if post.badge and post.external_url %}
+ · <a href="{{ post.external_url }}">{{ post.badge }}</a>
 {% elsif post.external_url %}
-### [{{ post.title }}]({{ post.external_url }})
-{% else %}
-### {{ post.title }}
+ · <a href="{{ post.external_url }}">{{ post.external_label | default: "External link" }}</a>
 {% endif %}
-
-<small>{{ post.date | date: "%B %Y" }}</small>
-
-{% if post.page_url %}[<kbd>Read post</kbd>]({{ post.page_url | relative_url }}){% endif %}
-{% if post.badge and post.external_url %} [<kbd>{{ post.badge }}</kbd>]({{ post.external_url }}){% endif %}
-{% if post.external_url and post.badge == nil %} [<kbd>{{ post.external_label | default: "External link" }}</kbd>]({{ post.external_url }}){% endif %}
+</small>
 
 {{ post.summary }}
 
@@ -127,10 +76,60 @@ Incomplete projects that I might continue in the future.
 {% if post.video %}
 <video controls class="project-video">
     <source src="{{ post.video }}" type="video/mp4">
+    Your browser does not support the video tag.
 </video>
 {% endif %}
 
-</div>
+---
+
+{% endfor %}
+
+<details>
+
+<summary><strong>Archive</strong></summary>
+
+<br>
+
+Incomplete projects that I might continue in the future.
+
+{% assign archive_posts = site.data.home_posts.archive | sort: "date" | reverse %}
+{% for post in archive_posts %}
+
+{% if post.page_url %}
+### [{{ post.title }}]({{ post.page_url | relative_url }})
+{% elsif post.external_url %}
+### [{{ post.title }}]({{ post.external_url }})
+{% else %}
+### {{ post.title }}
+{% endif %}
+
+<small>
+{{ post.date | date: "%B %Y" }}
+{% if post.badge and post.external_url %}
+ · <a href="{{ post.external_url }}">{{ post.badge }}</a>
+{% elsif post.external_url %}
+ · <a href="{{ post.external_url }}">{{ post.external_label | default: "External link" }}</a>
+{% endif %}
+</small>
+
+{{ post.summary }}
+
+{% if post.thumbnail %}
+<img src="{{ post.thumbnail }}" class="project-image"/>
+{% endif %}
+
+{% if post.thumbnail_2 %}
+<img src="{{ post.thumbnail_2 }}" class="project-image"/>
+{% endif %}
+
+{% if post.video %}
+<video controls class="project-video">
+    <source src="{{ post.video }}" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+{% endif %}
+
+---
 
 {% endfor %}
 
