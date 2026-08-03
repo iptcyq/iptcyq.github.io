@@ -6,78 +6,63 @@ I just made this site because it's the middle of exam season and I'm bored (and 
 Which is also why it's incomplete... I'll get back to updating this eventually?
 
 ---
-## Key Projects 
+## Project Log
 
-[<kbd> <br> The Distant Lurker <br> </kbd>](pages/TheDistantLurker_page)
-[<kbd> <br> [Game Off 2021] <br> </kbd>](https://itch.io/jam/game-off-2021/rate/1282863?=githubio)
+From newest to oldest. Pages in `pages/` with `home_post: true` are listed here automatically.
 
-A short game about human hacking, aka social engineering.
+{% assign posts = site.pages | where: "home_post", true | sort: "date" | reverse %}
+{% for post in posts %}
+### {{ post.title }}
 
-<img src="images/TheDistantLurker.png?raw=true"/>
+[<kbd> <br> Read post <br> </kbd>]({{ post.url | relative_url }})
+{% if post.badge %}[<kbd> <br> [{{ post.badge }}] <br> </kbd>]({{ post.external_url }}){% endif %}
+
+{{ post.summary }}
+
+{% if post.thumbnail %}<img src="{{ post.thumbnail }}"/>{% endif %}
+
+---
+{% endfor %}
+
+## Work In Progress
+
+{% assign wip_posts = site.data.home_posts.wip | sort: "date" | reverse %}
+{% for post in wip_posts %}
+### {{ post.title }}
+
+{% if post.page_url %}[<kbd> <br> Read post <br> </kbd>]({{ post.page_url | relative_url }}){% endif %}
+{% if post.badge and post.external_url %}[<kbd> <br> [{{ post.badge }}] <br> </kbd>]({{ post.external_url }}){% endif %}
+{% if post.external_url and post.badge == nil %}[<kbd> <br> {{ post.external_label | default: "External link" }} <br> </kbd>]({{ post.external_url }}){% endif %}
+
+{{ post.summary }}
+
+{% if post.thumbnail %}<img src="{{ post.thumbnail }}"/>{% endif %}
+{% if post.thumbnail_2 %}<img src="{{ post.thumbnail_2 }}"/>{% endif %}
+{% if post.video %}<video width="320" height="240" controls><source src="{{ post.video }}" type="video/mp4">Your browser does not support the video tag.</video>{% endif %}
+
+---
+{% endfor %}
 
 ---
 
-[<kbd> <br> Simulation of Virus Spread <br> </kbd>](pages/VirusSimulation_page)
-[<kbd> <br> [SMS Essay Competition 2021] <br> </kbd>](https://sgmathsociety.org/sms-essay-competition-2021/)
+## Archive (Maybe Continue Later)
 
-A simplistic simulation of the spread of a virus.
+{% assign archive_posts = site.data.home_posts.archive | sort: "date" | reverse %}
+{% for post in archive_posts %}
+### {{ post.title }}
 
-<img src="images/VirusSim.png?raw=true"/>
+{% if post.page_url %}[<kbd> <br> Read post <br> </kbd>]({{ post.page_url | relative_url }}){% endif %}
+{% if post.badge and post.external_url %}[<kbd> <br> [{{ post.badge }}] <br> </kbd>]({{ post.external_url }}){% endif %}
+{% if post.external_url and post.badge == nil %}[<kbd> <br> {{ post.external_label | default: "External link" }} <br> </kbd>]({{ post.external_url }}){% endif %}
 
----
+{{ post.summary }}
 
-## Things I'm working on
-
-Not much to show yet... I'm still working on it. 👀
-
-Here's some tidbits though...
-
-<kbd> <br> Asymmetric 2 player game <br> </kbd>
-<kbd> <br> + stealth and puzzles <br> </kbd>
-
-Made as part of a school module, will probably (?) be free on Steam.
-
-<img src="images/URECA_menu.jpg?raw=true"/>
-<img src="images/URECA_agent.jpg?raw=true"/>
-
-<br>
+{% if post.thumbnail %}<img src="{{ post.thumbnail }}"/>{% endif %}
+{% if post.thumbnail_2 %}<img src="{{ post.thumbnail_2 }}"/>{% endif %}
+{% if post.video %}<video width="320" height="240" controls><source src="{{ post.video }}" type="video/mp4">Your browser does not support the video tag.</video>{% endif %}
 
 ---
-
-## Incomplete things I might continue in the future
-
-<kbd> <br> Real-time sign language translation <br> </kbd>
-[<kbd> <br> [SSEF 2023] <br> </kbd>](https://www.science.edu.sg/for-schools/competitions/singapore-science-and-engineering-fair)
-
-Incomplete attempt at training a live sign language translation model. 
-Made for a school science research project, but never completed. 
-Surprisingly, it's attained finalist at SSEF 2023.
-
-<img src="images/SignTranslation2.jpg?raw=true"/>
-<img src="images/SignTranslation1.jpg?raw=true"/>
-
----
-
-[<kbd> <br> NEAT Algorithm <br> </kbd>](https://github.com/iptcyq/NEAT-Algorithm)
-
-**Attempt at learning machine learning** 
-...by _trying_ to implement the NEAT algorithm from scratch. 
-(last worked on in 2023)
-
-<video width="320" height="240" controls>
-  <source src="images/mlAttempt.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-
----
-
-[<kbd> <br> Witch's Brew <br> </kbd>](https://f15hygames.itch.io/witchs-brew?=githubio)
-
-**First attempt at learning Godot.** 
-Get ingredients for the witch in time, or be turned into a frog.
-(last worked on in 2024)
-
-<img src="images/WitchBrew.png?raw=true"/>
+{% endfor %}
 
 
 ---

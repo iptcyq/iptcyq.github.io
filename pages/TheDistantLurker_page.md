@@ -1,3 +1,13 @@
+---
+title: The Distant Lurker
+date: 2021-12-01
+summary: A short game about social engineering and human hacking, made for Game Off 2021.
+thumbnail: /images/TheDistantLurker.png?raw=true
+badge: Game Off 2021
+external_url: https://itch.io/jam/game-off-2021/rate/1282863?=githubio
+home_post: true
+---
+
 ## The Distant Lurker
 
 **Made in under 2 weeks, for Game Off 2021**
@@ -78,7 +88,7 @@ instead of 1.5 weeks worth. Definitely taught me a great lesson on version contr
 
 So yea. I forgot what else I intended to say. The results turned out surprisingly well. 
 
-<img src="../images/TDL_results_.jpg?raw=true"/>
+<img src="../images/TDL_results_.png?raw=true"/>
 
 **Post conclusion**
 
@@ -87,7 +97,7 @@ I developed the game a little more this year (2025) for a uni module. Video of g
 - Made tabs actually work like tabs. (draggable, overlappable, closeable)
 - Added some optional content (notepad tips)
 
-<img src="images/TheDistantLurker.png?raw=true"/>
+<img src="../images/TheDistantLurker.png?raw=true"/>
 
 I'd be interested in making a second game with a new story, but unfortunately I haven't had many good ideas.
 
