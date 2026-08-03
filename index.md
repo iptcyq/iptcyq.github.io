@@ -1,4 +1,12 @@
-﻿## Project Log
+﻿## About Me
+
+Hi I’m Iptcyq. I code, make games and engineer random stuff on my laptop.
+
+I just made this site because it’s the middle of exam season and I’m bored (and distracted). Which is also why it’s incomplete… I’ll get back to updating this eventually?
+
+---
+
+## Project Log
 
 Completed projects with the occasional write-up.
 
@@ -7,12 +15,14 @@ Completed projects with the occasional write-up.
 
 ### [{{ post.title }}]({{ post.url | relative_url }})
 
+<small>
 <p class="meta">
 {{ post.date | date: "%B %Y" }}
 {% if post.badge and post.external_url %}
  · <a href="{{ post.external_url }}">{{ post.badge }}</a>
 {% endif %}
 </p>
+</small>
 
 {{ post.summary }}
 
@@ -44,12 +54,15 @@ Things I am currently working on.
 ### {{ post.title }}
 {% endif %}
 
+<small>
 <p class="meta">
 {{ post.date | date: "%B %Y" }}
 {% if post.badge and post.external_url %}
  · <a href="{{ post.external_url }}">{{ post.badge }}</a>
 {% endif %}
 </p>
+</small>
+
 {{ post.summary }}
 
 {% if post.thumbnail %}
@@ -80,12 +93,14 @@ Incomplete projects that I might continue in the future.
 ### {{ post.title }}
 {% endif %}
 
+<small>
 <p class="meta">
 {{ post.date | date: "%B %Y" }}
 {% if post.badge and post.external_url %}
  · <a href="{{ post.external_url }}">{{ post.badge }}</a>
 {% endif %}
 </p>
+</small>
 
 {{ post.summary }}
 

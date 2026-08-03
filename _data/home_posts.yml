@@ -17,7 +17,7 @@ archive:
   - title: NEAT Algorithm
     date: 2023-05-08
     summary: Attempt at learning machine learning by trying to implement the NEAT algorithm from scratch.
-    badge: Repo
+    badge: Github Repo
     external_url: https://github.com/iptcyq/NEAT-Algorithm
     external_label: View on GitHub
     video: /images/mlAttempt.mp4
