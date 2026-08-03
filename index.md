@@ -13,11 +13,7 @@ Completed projects with the occasional write-up.
 {% assign posts = site.pages | where: "home_post", true | sort: "date" | reverse %}
 {% for post in posts %}
 
-{% if post.page_url %}
-### [{{ post.title }}]({{ post.page_url | relative_url }})
-{% else %}
-### {{ post.title }}
-{% endif %} <br>
+<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 <small>{{ post.date | date: "%B %Y" }}{% if post.badge and post.external_url %} · <a href="{{ post.external_url }}">{{ post.badge }}</a>{% endif %}</small>
 
 
@@ -45,11 +41,7 @@ Things I am currently working on.
 {% assign wip_posts = site.data.home_posts.wip | sort: "date" | reverse %}
 {% for post in wip_posts %}
 
-{% if post.page_url %}
-### [{{ post.title }}]({{ post.page_url | relative_url }})
-{% else %}
-### {{ post.title }}
-{% endif %} <br>
+<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 <small>{{ post.date | date: "%B %Y" }}{% if post.badge and post.external_url %} · <a href="{{ post.external_url }}">{{ post.badge }}</a>{% endif %}</small>
 
 
@@ -77,11 +69,7 @@ Incomplete projects that I might continue in the future.
 {% assign archive_posts = site.data.home_posts.archive | sort: "date" | reverse %}
 {% for post in archive_posts %}
 
-{% if post.page_url %}
-### [{{ post.title }}]({{ post.page_url | relative_url }})
-{% else %}
-### {{ post.title }}
-{% endif %} <br>
+<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 <small>{{ post.date | date: "%B %Y" }}{% if post.badge and post.external_url %} · <a href="{{ post.external_url }}">{{ post.badge }}</a>{% endif %}</small>
 
 
