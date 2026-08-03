@@ -13,11 +13,7 @@ Completed projects with the occasional write-up.
 {% assign posts = site.pages | where: "home_post", true | sort: "date" | reverse %}
 {% for post in posts %}
 
-{% if post.page_url %}
-### [{{ post.title }}]({{ post.page_url | relative_url }})
-{% else %}
-### {{ post.title }}
-{% endif %}
+### [{{ post.title }}]({{ post.url | relative_url }})
 
 <small>{{ post.date | date: "%B %Y" }}{% if post.badge and post.external_url %} · <a href="{{ post.external_url }}">{{ post.badge }}</a>{% endif %}</small>
 
