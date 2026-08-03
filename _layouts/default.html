@@ -28,35 +28,35 @@
             float: none;
             width: 100%;
             display: block;
-            align-items: center;
-            justify-content: center;
-            gap: 15px;
-            text-align: left;
+            text-align: center;
             padding: 10px 0;
         }
 
-        /* Hide the big title on mobile */
-        header h1 {
-            display: none;
-        }
-
-        /* Show logo */
+        /* Logo */
         header img {
             display: block;
             width: 45px;
             height: 45px;
-            margin: 0 auto;
+            margin: 0 auto 5px auto;
         }
 
-        /* Hide description on mobile */
+        /* Keep title */
+        header h1 {
+            display: block;
+            margin: 5px 0;
+            font-size: 1.5em;
+        }
+
+        /* Description */
         header > p:not(.view) {
-            display: none;
+            display: block;
+            margin: 5px auto 10px auto;
         }
 
-        /* Make links into a flat row */
+        /* Links */
         header .view {
-            display: inline;
-            margin: 0 5px;
+            display: inline-block;
+            margin: 0 6px;
             white-space: nowrap;
         }
     }
@@ -74,16 +74,13 @@
             
             <p class="view">
                 <a href="https://f15hygames.itch.io?=githubio">Find my itch.io games</a>
-            </p>
-            <p class="view">
+                ·
                 <a href="https://replit.com/@iptcyq">Find my old Replit projects</a>
+                ·
+                {% if site.github.is_user_page %}
+                <a href="{{ site.github.owner_url }}">Find my GitHub profile</a>
+                {% endif %}
             </p>
-            {% if site.github.is_project_page %}
-            <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-            {% endif %}
-            {% if site.github.is_user_page %}
-            <p class="view"><a href="{{ site.github.owner_url }}">Find my GitHub profile</a></p>
-            {% endif %}
                     <!--
             {% if site.show_downloads %}
             <ul class="downloads">
