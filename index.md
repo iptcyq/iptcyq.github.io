@@ -15,12 +15,12 @@ Completed projects with the occasional write-up.
 
 ### [{{ post.title }}]({{ post.url | relative_url }})
 
-<small>
+<p class="meta">
 {{ post.date | date: "%B %Y" }}
 {% if post.badge and post.external_url %}
  · <a href="{{ post.external_url }}">{{ post.badge }}</a>
 {% endif %}
-</small>
+</p>
 
 {{ post.summary }}
 
@@ -54,15 +54,12 @@ Things I am currently working on.
 ### {{ post.title }}
 {% endif %}
 
-<small>
+<p class="meta">
 {{ post.date | date: "%B %Y" }}
 {% if post.badge and post.external_url %}
  · <a href="{{ post.external_url }}">{{ post.badge }}</a>
-{% elsif post.external_url %}
- · <a href="{{ post.external_url }}">{{ post.external_label | default: "External link" }}</a>
 {% endif %}
-</small>
-
+</p>
 {{ post.summary }}
 
 {% if post.thumbnail %}
@@ -84,11 +81,7 @@ Things I am currently working on.
 
 {% endfor %}
 
-<details>
-
-<summary><strong>Archive</strong></summary>
-
-<br>
+## Archive
 
 Incomplete projects that I might continue in the future.
 
@@ -103,14 +96,12 @@ Incomplete projects that I might continue in the future.
 ### {{ post.title }}
 {% endif %}
 
-<small>
+<p class="meta">
 {{ post.date | date: "%B %Y" }}
 {% if post.badge and post.external_url %}
  · <a href="{{ post.external_url }}">{{ post.badge }}</a>
-{% elsif post.external_url %}
- · <a href="{{ post.external_url }}">{{ post.external_label | default: "External link" }}</a>
 {% endif %}
-</small>
+</p>
 
 {{ post.summary }}
 
