@@ -1,12 +1,4 @@
-﻿## About Me
-
-Hi I’m **Iptcyq**. I code, make games and engineer random stuff on (and off) my laptop.
-
-I just made this site because it’s the middle of exam season and I’m bored (and distracted). Which is also why it’s incomplete… I’ll get back to updating this eventually?
-
----
-
-## Project Log
+﻿## Project Log
 
 Completed projects with the occasional write-up.
 
@@ -64,10 +56,6 @@ Things I am currently working on.
 <img src="{{ post.thumbnail }}" class="project-image"/>
 {% endif %}
 
-{% if post.thumbnail_2 %}
-<img src="{{ post.thumbnail_2 }}" class="project-image"/>
-{% endif %}
-
 {% if post.video %}
 <video width="640" controls class="project-video">
     <source src="{{ post.video }}" type="video/mp4">
@@ -105,10 +93,6 @@ Incomplete projects that I might continue in the future.
 <img src="{{ post.thumbnail }}" class="project-image"/>
 {% endif %}
 
-{% if post.thumbnail_2 %}
-<img src="{{ post.thumbnail_2 }}" class="project-image"/>
-{% endif %}
-
 {% if post.video %}
 <video width="640" controls class="project-video">
     <source src="{{ post.video }}" type="video/mp4">
@@ -120,9 +104,7 @@ Incomplete projects that I might continue in the future.
 
 {% endfor %}
 
-</details>
 
----
 
 <p align="center">
 <sub>

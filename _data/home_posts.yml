@@ -1,9 +1,10 @@
 wip:
-  - title: Asymmetric 2 player game (+ stealth and puzzles)
+  - title: Cheeze'd It!
     date: 2026-01-01
-    summary: Made as part of a school module, and it will probably (?) be free on Steam.
-    thumbnail: /images/URECA_menu.jpg?raw=true
-    thumbnail_2: /images/URECA_agent.jpg?raw=true
+    summary: Asymmetric cooperative 2-player game with elements of stealth and puzzle-solving. Made for a school research module. To be uploaded on Steam.
+    badge: itch.io page
+    external_url: https://f15hygames.itch.io/cheezed-it
+    thumbnail: /images/URECA_agent.jpg?raw=true
 
 archive:
   - title: Real-time sign language translation
@@ -11,8 +12,7 @@ archive:
     summary: Incomplete attempt at training a live sign language translation model. Made for a school science research project, but never completed. Surprisingly, it attained finalist at SSEF 2023.
     badge: SSEF 2023
     external_url: https://www.science.edu.sg/for-schools/competitions/singapore-science-and-engineering-fair
-    thumbnail: /images/SignTranslation2.jpg?raw=true
-    thumbnail_2: /images/SignTranslation1.jpg?raw=true
+    thumbnail: /images/SignTranslation1.jpg?raw=true
 
   - title: NEAT Algorithm
     date: 2023-05-08
