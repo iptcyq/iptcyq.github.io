@@ -17,8 +17,7 @@ Completed projects with the occasional write-up.
 ### [{{ post.title }}]({{ post.page_url | relative_url }})
 {% else %}
 ### {{ post.title }}
-{% endif %}
-
+{% endif %} <br>
 <small>{{ post.date | date: "%B %Y" }}{% if post.badge and post.external_url %} · <a href="{{ post.external_url }}">{{ post.badge }}</a>{% endif %}</small>
 
 
@@ -50,8 +49,7 @@ Things I am currently working on.
 ### [{{ post.title }}]({{ post.page_url | relative_url }})
 {% else %}
 ### {{ post.title }}
-{% endif %}
-
+{% endif %} <br>
 <small>{{ post.date | date: "%B %Y" }}{% if post.badge and post.external_url %} · <a href="{{ post.external_url }}">{{ post.badge }}</a>{% endif %}</small>
 
 
@@ -83,8 +81,7 @@ Incomplete projects that I might continue in the future.
 ### [{{ post.title }}]({{ post.page_url | relative_url }})
 {% else %}
 ### {{ post.title }}
-{% endif %}
-
+{% endif %} <br>
 <small>{{ post.date | date: "%B %Y" }}{% if post.badge and post.external_url %} · <a href="{{ post.external_url }}">{{ post.badge }}</a>{% endif %}</small>
 
 
