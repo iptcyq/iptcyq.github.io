@@ -88,7 +88,7 @@ instead of 1.5 weeks worth. Definitely taught me a great lesson on version contr
 
 So yea. I forgot what else I intended to say. The results turned out surprisingly well. 
 
-<img src="../images/TDL_results_.png?raw=true"/>
+<img src="../images/TDL_results.png?raw=true"/>
 
 **Post conclusion**
 
@@ -104,3 +104,9 @@ I'd be interested in making a second game with a new story, but unfortunately I 
 So... maybe someday? 
 
 Or if anyone has any suggestions?
+
+
+
+<p>
+<a href="{{ "/" | relative_url }}">← Back to Home</a>
+</p>

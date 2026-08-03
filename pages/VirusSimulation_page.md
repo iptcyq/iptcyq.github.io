@@ -29,3 +29,9 @@ home_post: true
 <img src="../images/VirusSim.png?raw=true"/>
 
 Try the simulation here: [Virus spread simulation](https://f15hygames.itch.io/spread-simulation?=githubio)
+
+
+
+<p>
+<a href="{{ "/" | relative_url }}">← Back to Home</a>
+</p>
