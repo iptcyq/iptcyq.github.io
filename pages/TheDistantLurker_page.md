@@ -88,7 +88,7 @@ instead of 1.5 weeks worth. Definitely taught me a great lesson on version contr
 
 So yea. I forgot what else I intended to say. The results turned out surprisingly well. 
 
-<img src="../images/TDL_results.png?raw=true"/>
+<img src="../images/TDL_Results.png?raw=true"/>
 
 **Post conclusion**
 
